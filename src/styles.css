@@ -2,7 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
+
+body {
   font-family: "Poppins", sans-serif;
   @apply bg-gray-200;
 }
@@ -32,4 +33,11 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn {
+  @apply transition-all duration-200 ease-linear;
+}
+.active {
+  @apply border-b-blue-500 text-blue-600 border-2;
 }

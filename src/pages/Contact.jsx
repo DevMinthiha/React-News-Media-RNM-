@@ -8,7 +8,7 @@ import {FaFacebookMessenger} from "react-icons/fa"
 const Contact = () => {
   return (
     <section className="w-full h-screen">
-      <div className="flex justify-center items-center pt-36">
+      <div className="flex justify-center items-center h-full">
         <form className="login-form md:w-550">
           <Logo />
           <h3 className="text-xl font-bold flex items-center gap-5">
